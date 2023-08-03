@@ -1,0 +1,6 @@
+struct Name {  
+    field1: Type1,  
+    field2: Type2,  
+    // ...  
+    fieldN: TypeN,  
+}
