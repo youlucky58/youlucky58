@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+int main()
+{
+	int a = 0;
+	int& b = a;
+ 
+	const int c = 2;
+	int& d = c;
+ 
+	const int x = 3;
+	const int& y = x;
+	int m = 6;
+	const int& n = m;//
+	return 0;
+}
