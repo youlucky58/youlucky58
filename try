@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float * x;
+    try{x = new float [n]};
+    catch(bad_alloc e)
+    {
+        cerr << "Out of Memory" << endl;
+        exit(1);
+    }
+    return 0;
+}
