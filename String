@@ -1,0 +1,7 @@
+public String getSalutation() { 
+	    return (String)fInfo.get("salutation"); 
+	} 
+	public void setSalutation(String param1) { 
+	if (param1 != null) 
+	    fInfo.put("salutation", param1); 
+	} 
