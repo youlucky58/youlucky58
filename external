@@ -1,0 +1,10 @@
+import java.util.*; 
+import com.sun.content.server.service.security.*; 
+import com.sun.content.server.service.security.util.*; 
+ 
+// import external required packages to connect to the directory service 
+ 
+public class SampleExternalProxy 
+{  
+    // Create a Client facace for serach 
+    private ExternalClientObject externalUserMgr; 
