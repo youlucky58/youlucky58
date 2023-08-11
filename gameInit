@@ -1,0 +1,21 @@
+int main(void) {
+    gameInit();
+    startUI();
+    int timer = 0;
+    bool flag = true;
+    while (1) {
+        userClick();
+        timer += getDelay();
+        if (timer > 20) {
+            timer = 0;
+            flag = true;
+        }
+        if (flag) {
+            flag = false;
+            updateWindow();
+            updateGame();
+        }
+    }
+ 
+    return 0;
+}
